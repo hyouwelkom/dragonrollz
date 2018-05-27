@@ -69,7 +69,8 @@ bot.on('message', function (msg) {
             msg.channel.send("L'enfant de Columbiiiine, est au pieds des montaaagnes :musical_note:")
         }
         if(msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo")) {
-            var i = Math.floor(Math.random() * 12)
+            //var i = Math.floor(Math.random() * 12)
+            var i = 10
             switch (i) {
                 case 0:
                     msg.channel.send("graphie")
@@ -108,7 +109,9 @@ bot.on('message', function (msg) {
                     break
                 case 11:
                     msg.channel.send("", {
-                        file: "./assets/img/geo1.jpg"
+                        files: [
+                            "./assets/img/geo1.jpg"
+                            ]
                     })
                     break
 
