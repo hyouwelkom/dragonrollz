@@ -60,7 +60,7 @@ bot.on('message', function (msg) {
             msg.channel.send("BoT des îles et lpb des amatrices de tiramisu")
         }
         if(msg.content.toLowerCase().includes("isma")) {
-            msg.channel.send("Lpb des globe-trotteurs")
+            msg.channel.send(":poop: Roi des cacas :poop:")
         }
         if(msg.content.toLowerCase().includes("remy")) {
             msg.channel.send("J'ai bien entendu \"Rémy\" le Roi des fdp ?")
@@ -69,7 +69,7 @@ bot.on('message', function (msg) {
             msg.channel.send("L'enfant de Columbiiiine, est au pieds des montaaagnes :musical_note:")
         }
         if(msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo")) {
-            var i = Math.floor(Math.random() * 4)
+            var i = Math.floor(Math.random() * 12)
             switch (i) {
                 case 0:
                     msg.channel.send("graphie")
@@ -83,6 +83,35 @@ bot.on('message', function (msg) {
                 case 3:
                     msg.channel.send("politique")
                     break
+                case 4:
+                    msg.channel.send("Je fais des bisous avec le nez")
+                    break
+                case 5:
+                    msg.channel.send("Géoublié de tirer la chasse")
+                    break
+                case 6:
+                    msg.channel.send("morphologique")
+                    break
+                case 7:
+                    msg.channel.send("métrie")
+                    break
+                case 8:
+                    msg.channel.send("physicienne")
+                    break
+                case 9:
+                    msg.channel.send("J'envoie des snap en 144p")
+                    break
+                case 10:
+                    msg.channel.send("Geoxx la chaussure qui respire", {
+                        file: "./assets/img/geo2.png"
+                    })
+                    break
+                case 11:
+                    msg.channel.send("", {
+                        file: "./assets/img/geo1.jpg"
+                    })
+                    break
+
             }
         }
 
