@@ -37,7 +37,7 @@ bot.on('message', function (msg) {
         if(msg.content.toLowerCase().includes("maja")) {
             msg.channel.send("La meuf à Virgile")
         }
-        if(msg.content.toLowerCase().includes("maja")) {
+        if(msg.content.toLowerCase().includes("pingu")) {
             msg.channel.send("Nique ta mère emoji de mort")
         }
         if(msg.content.toLowerCase().includes("kaktus")) {
