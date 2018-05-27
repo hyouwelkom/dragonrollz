@@ -111,7 +111,7 @@ bot.on('message', function (msg) {
                 case 11:
                     msg.channel.send("", {
                         files: [
-                            "./assets/img/geo1.jpg"
+                            "./assets/img/geo1.jpeg"
                             ]
                     })
                     break
