@@ -9,6 +9,7 @@ bot.user.setPresence({
         type: 0
     }
 });
+});
 
 bot.on('message', function (msg) {
 
@@ -37,11 +38,11 @@ bot.on('message', function (msg) {
         if(msg.content.toLowerCase().includes("maja")) {
             msg.channel.send("La meuf à Virgile")
         }
-        if(msg.content.toLowerCase().includes("pingu")) {
-            msg.channel.send("Nique ta mère emoji de mort")
-        }
         if(msg.content.toLowerCase().includes("kaktus")) {
             msg.channel.send("Lpb des rappeuses")
+        }
+        if(msg.content.toLowerCase().includes("pingu")) {
+            msg.channel.send("Nique ta mère emoji de mort")
         }
         if(msg.content.toLowerCase().includes("coco")) {
             msg.channel.send("Lpb des rappeurs")
