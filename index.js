@@ -71,6 +71,9 @@ bot.on('message', function (msg) {
         if(msg.content.toLowerCase().includes("julien")) {
             msg.channel.send(":flag_ma:")
         }
+        if(msg.content.toLowerCase().includes("rennais")) {
+            msg.channel.send(":gay_pride_flag:")
+        }
         if(msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo")) {
             var i = Math.floor(Math.random() * 12)
             switch (i) {
