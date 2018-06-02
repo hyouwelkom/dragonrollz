@@ -74,11 +74,11 @@ bot.on('message', function (msg) {
         if(msg.content.toLowerCase().includes("athem")) {
             msg.channel.send("C'est le H devant fils de pute")
         }
-        if(msg.content.toLowerCase().includes("pashou")) {
+        if(msg.content.toLowerCase().includes("pashou") || msg.content.toLowerCase().includes("eloise")) {
             msg.channel.send("La meuf à Frezzby")
         }
         if(msg.content.toLowerCase().includes("lisa")) {
-            msg.channel.send("C'est ton prénom qu'a été mal choisi fdp")
+            msg.channel.send("Pas touche à Luka")
         }
         if(msg.content.toLowerCase().includes("rennais")) {
             msg.channel.send(":gay_pride_flag:")
