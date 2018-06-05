@@ -35,6 +35,11 @@ bot.on('message', function (msg) {
         if(msg.content.toLowerCase().includes("lucas") || msg.content.toLowerCase().includes("lulu")) {
             msg.channel.send("Dieu")
         }
+        if(msg.content.startsWith("david type ")) {
+            var str = msg.content
+            str = str.replace('david type ', '')
+            msg.channel.send(str)
+        }
         if(msg.content.toLowerCase().includes("maja")) {
             msg.channel.send("La meuf à Virgile")
         }
