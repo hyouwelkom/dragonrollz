@@ -37,6 +37,7 @@ bot.on('message', function (msg) {
         }
         if(msg.content.startsWith("david type ")) {
             var str = msg.content
+            msg.delete()
             str = str.replace('david type ', '')
             msg.channel.send(str)
         }
