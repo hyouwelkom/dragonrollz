@@ -32,7 +32,7 @@ bot.on('message', function (msg) {
                 break
         }
 
-        if(msg.content.toLowerCase().includes("lucas ") || msg.content.toLowerCase().includes("lulu ") || msg.content.toLowerCase().equals("lucas") || msg.content.toLowerCase().equals("lulu") ) {
+        if(msg.content.toLowerCase().includes("lucas ") || msg.content.toLowerCase().includes("lulu ") || msg.content.toLowerCase() === "lucas" || msg.content.toLowerCase() === "lulu" ) {
             msg.channel.send("Dieu")
         }
         if(msg.content.startsWith("david type ")) {
@@ -41,34 +41,34 @@ bot.on('message', function (msg) {
             str = str.replace('david type ', '')
             msg.channel.send(str)
         }
-        if(msg.content.toLowerCase().includes("maja ") || msg.content.toLowerCase().equals("maja")) {
+        if(msg.content.toLowerCase().includes("maja ") || msg.content.toLowerCase() === "maja") {
             msg.channel.send("La meuf à Virgile")
         }
-        if(msg.content.toLowerCase().includes("kaktus ") || msg.content.toLowerCase().equals("kaktus")) {
+        if(msg.content.toLowerCase().includes("kaktus ") || msg.content.toLowerCase() === "kaktus") {
             msg.channel.send("Lpb des rappeuses")
         }
-        if(msg.content.toLowerCase().includes("coco ") || msg.content.toLowerCase().equals("coco")) {
+        if(msg.content.toLowerCase().includes("coco ") || msg.content.toLowerCase() === "coco") {
             msg.channel.send("Lpb des rappeurs")
         }
-        if(msg.content.toLowerCase().includes("virgile ") || msg.content.toLowerCase().includes("vivi ") || msg.content.toLowerCase().equals("virgile") || msg.content.toLowerCase().equals("vivi")) {
+        if(msg.content.toLowerCase().includes("virgile ") || msg.content.toLowerCase().includes("vivi ") || msg.content.toLowerCase() === "virgile" || msg.content.toLowerCase() === "vivi") {
             msg.channel.send("Mon humble maître, souverain et vénéré créateur de toute chose")
         }
-        if(msg.content.toLowerCase().includes("océ ") || msg.content.toLowerCase().equals("océ")) {
+        if(msg.content.toLowerCase().includes("océ ") || msg.content.toLowerCase() === "océ") {
             msg.channel.send("Lpb des Serpentard")
         }
-        if(msg.content.toLowerCase().includes("nejma ") || msg.content.toLowerCase().equals("nejma")) {
+        if(msg.content.toLowerCase().includes("nejma ") || msg.content.toLowerCase() === "nejma") {
             msg.channel.send("BoT des îles et lpb des amatrices de tiramisu")
         }
-        if(msg.content.toLowerCase().includes("claire ") || msg.content.toLowerCase().equals("claire")) {
+        if(msg.content.toLowerCase().includes("claire ") || msg.content.toLowerCase() === "claire") {
             msg.channel.send("L'enfant de Columbiiiine, est au pieds des montaaagnes :musical_note:")
         }
-        if(msg.content.toLowerCase() === 'julien') {
+        if(msg.content.toLowerCase().includes("julien ") || msg.content.toLowerCase() === "julien") {
             msg.channel.send(":flag_ma:")
         }
-        if(msg.content.toLowerCase().includes("athem ") || msg.content.toLowerCase().equals("athem")) {
+        if(msg.content.toLowerCase().includes("athem ") || msg.content.toLowerCase() === "athem") {
             msg.channel.send("C'est le H devant fils de pute")
         }
-        if(msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo") || msg.content.toLowerCase().equals("geo") || msg.content.toLowerCase().equals("géo")) {
+        if(msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo") || msg.content.toLowerCase() === "geo" || msg.content.toLowerCase() === "géo") {
             var i = Math.floor(Math.random() * 12)
             switch (i) {
                 case 0:

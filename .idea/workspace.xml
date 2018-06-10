@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69028997-9d5d-4909-ac48-16afa18b8021" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+            <state relative-caret-position="-143">
+              <caret line="70" column="176" lean-forward="true" selection-start-line="70" selection-start-column="176" selection-end-line="70" selection-end-column="176" />
             </state>
           </provider>
         </entry>
@@ -182,16 +183,15 @@
       <workItem from="1528034668719" duration="617000" />
       <workItem from="1528196632673" duration="1583000" />
       <workItem from="1528364061318" duration="1198000" />
-      <workItem from="1528655034244" duration="737000" />
+      <workItem from="1528655034244" duration="1036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27076000" />
+    <option name="totallyTimeSpent" value="27470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -301,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        <state relative-caret-position="-143">
+          <caret line="70" column="176" lean-forward="true" selection-start-line="70" selection-start-column="176" selection-end-line="70" selection-end-column="176" />
         </state>
       </provider>
     </entry>
