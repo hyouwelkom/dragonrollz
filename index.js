@@ -41,53 +41,32 @@ bot.on('message', function (msg) {
             str = str.replace('david type ', '')
             msg.channel.send(str)
         }
-        if(msg.content.toLowerCase().includes("maja")) {
+        if(msg.content.toLowerCase().includes("maja ")) {
             msg.channel.send("La meuf à Virgile")
         }
-        if(msg.content.toLowerCase().includes("kaktus")) {
+        if(msg.content.toLowerCase().includes("kaktus ")) {
             msg.channel.send("Lpb des rappeuses")
         }
-        if(msg.content.toLowerCase().includes("pingu")) {
-            msg.channel.send("Nique ta mère emoji de mort")
-        }
-        if(msg.content.toLowerCase().includes("coco")) {
+        if(msg.content.toLowerCase().includes("coco ")) {
             msg.channel.send("Lpb des rappeurs")
         }
-        if(msg.content.toLowerCase().includes("virgile") || msg.content.toLowerCase().includes("vivi")) {
+        if(msg.content.toLowerCase().includes("virgile ") || msg.content.toLowerCase().includes("vivi ")) {
             msg.channel.send("Mon humble maître, souverain et vénéré créateur de toute chose")
         }
-        if(msg.content.toLowerCase().includes("océ")) {
+        if(msg.content.toLowerCase().includes("océ ")) {
             msg.channel.send("Lpb des Serpentard")
         }
-        if(msg.content.toLowerCase().includes("luka")) {
-            msg.channel.send("Le mec à l'aise")
-        }
-        if(msg.content.toLowerCase().includes("nejma")) {
+        if(msg.content.toLowerCase().includes("nejma ")) {
             msg.channel.send("BoT des îles et lpb des amatrices de tiramisu")
         }
-        if(msg.content.toLowerCase().includes("isma")) {
-            msg.channel.send(":poop: Roi des cacas :poop:")
-        }
-        if(msg.content.toLowerCase().includes("remy")) {
-            msg.channel.send("J'ai bien entendu \"Rémy\" le Roi des fdp ?")
-        }
-        if(msg.content.toLowerCase().includes("claire")) {
+        if(msg.content.toLowerCase().includes("claire ")) {
             msg.channel.send("L'enfant de Columbiiiine, est au pieds des montaaagnes :musical_note:")
         }
-        if(msg.content.toLowerCase().includes("julien")) {
+        if(msg.content.toLowerCase().includes("julien ")) {
             msg.channel.send(":flag_ma:")
         }
-        if(msg.content.toLowerCase().includes("athem")) {
+        if(msg.content.toLowerCase().includes("athem ")) {
             msg.channel.send("C'est le H devant fils de pute")
-        }
-        if((msg.content.toLowerCase().includes("pashou") || msg.content.toLowerCase().includes("eloise"))) {
-            msg.channel.send("La meuf à Frezzby")
-        }
-        if(msg.content.toLowerCase().includes("lisa")) {
-            msg.channel.send("Pas touche à Luka")
-        }
-        if(msg.content.toLowerCase().includes("rennais")) {
-            msg.channel.send(":gay_pride_flag:")
         }
         if(msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo")) {
             var i = Math.floor(Math.random() * 12)
