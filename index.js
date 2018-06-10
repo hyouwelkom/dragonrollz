@@ -62,7 +62,7 @@ bot.on('message', function (msg) {
         if(msg.content.toLowerCase().includes("claire ") || msg.content.toLowerCase().equals("claire")) {
             msg.channel.send("L'enfant de Columbiiiine, est au pieds des montaaagnes :musical_note:")
         }
-        if(msg.content.toLowerCase().includes("julien ") || msg.content.toLowerCase().equals("julien")) {
+        if(msg.content.toLowerCase().includes("julien ") || msg.content.toLowerCase() === "julien") {
             msg.channel.send(":flag_ma:")
         }
         if(msg.content.toLowerCase().includes("athem ") || msg.content.toLowerCase().equals("athem")) {
