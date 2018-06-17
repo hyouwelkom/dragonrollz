@@ -41,9 +41,6 @@ bot.on('message', function (msg) {
             str = str.replace('david type ', '')
             msg.channel.send(str)
         }
-        if(msg.content.toLowerCase().includes("maja ") || msg.content.toLowerCase() === "maja") {
-            msg.channel.send("La meuf à Virgile")
-        }
         if(msg.content.toLowerCase().includes("kaktus ") || msg.content.toLowerCase() === "kaktus") {
             msg.channel.send("Lpb des rappeuses")
         }
