@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client();
+const commands = JSON.parse(fs.readFileSync('json/commands.json', 'utf8'));
 let punch = JSON.parse(fs.readFileSync('json/punchlines.json', 'utf8'));
 var LastPunch = {};
 
@@ -31,42 +32,51 @@ bot.on('message', function (msg) {
             case "viens dans l'hall":
                 msg.channel.send("J'AI DES DRAGON BALLS")
                 break
-            case "dragonhelp":
-                msg.channel.send("```Roule un dragon --> Fume un dragon\n Fume un dragon --> Charge un dragon\n Charge un dragon --> Vise les tes-têêê\n Viens dans l'hall --> J'ai des dragon balls\n--------------------------------------------\n vas-y charge le --> Le bot roule un dragon```")
-                break
         }
 
         if(msg.content.toLowerCase().includes("lucas ") || msg.content.toLowerCase().includes("lulu ") || msg.content.toLowerCase() === "lucas" || msg.content.toLowerCase() === "lulu" ) {
             msg.channel.send("Dieu")
         }
-        if(msg.content.startsWith("david type ")) {
+        if(msg.content.startsWith("dv type ")) {
             var str = msg.content
             msg.delete()
-            str = str.replace('david type ', '')
+            str = str.replace('dv type ', '')
             msg.channel.send(str)
         }
-        if(msg.content.toLowerCase() === "david punch " || msg.content.toLowerCase() === "david punch") {
+        if(msg.content.startsWith("dv help")) {
+            const embed = new Discord.RichEmbed().setColor(0x20B2AA)
+            for (var cmd in commands) {
+                embed.addField('\n'+commands[cmd].name+'\n', '\n**Description:** '+commands[cmd].desc+'\n\n**Usage:** '+commands[cmd].usage+'\n\n')
+            }
+            embed.setFooter("N'hésitez pas à me DM si vous avez une suggestion ou bien repéré un bug !")
+            embed.setDescription('**Commandes du bot David Ghetto**\n')
+            msg.channel.send(embed)
+        }
+        if(msg.content.startsWith("dv cat")) {
+            msg.channel.send("Actualités\nAfrique\nAlcool\nAmitié\nAmour\nArgent\nArmes\nAvenir\nBattle\nBonheur\nBusiness\nCinéma\nClash\nCouple\nDélinquance\nDieu\nDivers\nDrogue\nDrôle\nÉchec\nÉcole\nEgo Trip\nÉté\nExplicit Lyrics\nFamille\nFemme\nFilm\nFoot\nFrance\nFreestyle\nGeek\nIntégration\nInternet\nJalousie\nJeu de mots\nJeunesse\nJeux Vidéo\nJustice\nLeçon de vie\nManga\nMédias\nMère\nMort\nNoël\nNuit\nOld School\nPauvreté\nPolice\nPolitique\nPresse\nPrison\nProverbe\nRacisme\nRap Game\nRap US\nRateau\nReligion\nRéussite\nRue\nRupture\nSanté\nSexe\nSociété\nSport\nTélévision\nTemps\nTerrorisme\nTolérance\nTravail\nTriste\nVie\nViolence\nVoiture\n")
+        }
+        if(msg.content.toLowerCase() === "dv punch " || msg.content.toLowerCase() === "dv punch") {
             var i = Math.floor(Math.random() * (punch.length-1))
             msg.channel.send(punch[i].content)
             LastPunch.lastId = i
         }
-        if(msg.content.startsWith("david punch ") &&arr.length>2 && arr[2] !== undefined) {
-            str = msg.content.replace('david punch ', '')
-            if(str.charAt(str.length-1) == " ") { str.slice(-1); }
-            var i = Math.floor(Math.random() * (punch.length-1))
-            var j = 0
-            while(!(punch[i].tags.includes(str))) {
-                j++
-                i = Math.floor(Math.random() * (punch.length-1))
-                if(j === 20) {
-                    msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée")
-                    break
+        if(msg.content.startsWith("dv punch ") && arr.length>2 && arr[2] !== undefined) {
+            str = msg.content.replace('dv punch ', '')
+            if(str.charAt(str.length-1) == " ") { str = str.slice(0, -1); }
+            var tab = []
+            var t = punch.length
+            for (i = 0;i<t;i++) {
+                var size = punch[i].tags.length
+                for(var y = 0; y<size; y++) {
+                    if(punch[i].tags[y] == str) { tab.push(punch[i]) }
                 }
             }
-            if(!(j===20)) {
-                msg.channel.send(punch[i].content)
-            }
+            i = Math.floor(Math.random() * (tab.length-1))
+            msg.channel.send(tab[i].content)
             LastPunch.lastId = i
+            } else {
+                msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée")
+            }
         }
         if(msg.content.toLowerCase().includes("david auteur ") || msg.content.toLowerCase() === "david auteur") {
             msg.channel.send("La punch est de "+punch[LastPunch.lastId].author+" du titre "+punch[LastPunch.lastId].title+", album "+punch[LastPunch.lastId].album)
@@ -149,24 +159,23 @@ bot.on('message', function (msg) {
 
 
         if(msg.content.toLowerCase() === "vas-y charge le") {
-            msg.channel.send("J'effrite...").then(function (msg) {
+            msg.channel.send("Rien qu'ça téfri...").then(function (msg) {
                 var interval = setTimeout(function() {
-                    msg.edit("J'effrite.....")
+                    msg.edit("Rien qu'ça téfri.....")
                 }, 1 * 1000)
                 var interval = setTimeout(function() {
-                    msg.edit("J'effrite..........")
+                    msg.edit("Rien qu'ça téfri..........")
                 }, 1 * 1000)
                 var interval = setTimeout(function() {
-                    msg.edit("J'effrite toujours..............")
+                    msg.edit("Rien qu'ça téfri toujours..............")
                 }, 1 * 1000)
                 var interval = setTimeout(function() {
-                    msg.edit("C'est prêt ! ```(____((____________()~~~```")
+                    msg.edit("```(____((____________()~~~```")
                 }, 1 * 1000)
             })
         }
-    }
+
 
 })
-
 
 bot.login('MzM0MDkzMDMxNzAxNjEwNTA2.DifLJQ.jGTvGhIBgI-nhb-SwoqjCihszak')

@@ -323,7 +323,6 @@
     "content": "« T’es belle comme la chambre forte du Crédit Agricole. »",
     "tags": [
       "Argent",
-      "Compliment",
       "Femme"
     ],
     "author": "Seth Gueko",
@@ -840,7 +839,7 @@
   {
     "content": "« Qui craint de souffrir souffre déjà de ce qu’il craint. »",
     "tags": [
-      "Citation"
+      "Proverbe"
     ],
     "author": "Demi Portion",
     "album": "Divers",
@@ -1056,7 +1055,7 @@
   {
     "content": "« Les hommes sont comme les pommes : quand on les entasse, ils pourrissent. »",
     "tags": [
-      "Citation"
+      "Proverbe"
     ],
     "author": "Nakk Mendosa",
     "album": "Darksun",
@@ -1083,7 +1082,6 @@
   {
     "content": "« Il faut avancer de l’avant. »",
     "tags": [
-      "Divers",
       "Drôle",
       "Foot"
     ],
@@ -1228,7 +1226,7 @@
   {
     "content": "« Le talent, c’est l’audace que les autres n’ont pas. »",
     "tags": [
-      "Pub"
+      "Ego Trip"
     ],
     "author": "Oxmo Puccino",
     "album": "Divers",
@@ -1285,7 +1283,6 @@
     "content": "« On peut avoir le cœur très tendre et la teub très dure. »",
     "tags": [
       "Amour",
-      "Divers",
       "Drôle",
       "Sexe",
       "Télévision"
@@ -1362,7 +1359,7 @@
   {
     "content": "« Si la violence ne résout rien c’est que t’as pas frappé assez fort. »",
     "tags": [
-      "Bagarre"
+      "Violence"
     ],
     "author": "Seth Gueko",
     "album": "Cosa Nostra",
@@ -1594,7 +1591,7 @@
   {
     "content": "« Je prends de la hauteur mais personne de haut. »",
     "tags": [
-      "Live"
+      "Ego Trip"
     ],
     "author": "Rohff",
     "album": "Divers",
@@ -1604,7 +1601,7 @@
     "content": "« Paris c’est plein de boîtes de thon, comme la cellule d’un prisonnier. »",
     "tags": [
       "Nuit",
-      "Paris",
+      "France",
       "Prison"
     ],
     "author": "Seth Gueko",
@@ -1860,7 +1857,6 @@
   {
     "content": "« Casse-toi, pauv’ con ! »",
     "tags": [
-      "Divers",
       "Explicit Lyrics",
       "Politique"
     ],
@@ -1871,7 +1867,6 @@
   {
     "content": "« Sarkozy, faut lui marcher dessus. Et du pied gauche, ça porte bonheur. »",
     "tags": [
-      "Divers",
       "Politique"
     ],
     "author": "Jacques Chirac",
@@ -1881,7 +1876,6 @@
   {
     "content": "« Ça m’en touche une, sans faire bouger l’autre. »",
     "tags": [
-      "Divers",
       "Politique"
     ],
     "author": "Jacques Chirac",
@@ -2058,7 +2052,7 @@
   {
     "content": "« Au ter-ter la neige dans le nez des frères, je rappe pour les sports d’hiver. »",
     "tags": [
-      "Banlieue",
+      "Rue",
       "Drogue"
     ],
     "author": "Team BS (La Fouine, Sultan, Fababy et Sindy)",
@@ -2088,7 +2082,7 @@
   {
     "content": "« Les plus grosses punchlines ne sont pas dans tes textes, mais dans cette religion que Marine déteste. »",
     "tags": [
-      "FN",
+      "Politique",
       "Religion"
     ],
     "author": "Black Mesrimes (aka Black M)",
@@ -2186,7 +2180,7 @@
   {
     "content": "« Tout le monde peut s’en sortir, aucune cité n’a de barreaux. »",
     "tags": [
-      "Banlieue"
+      "Rue"
     ],
     "author": "Booba",
     "album": "0.9",
@@ -2941,7 +2935,8 @@
   {
     "content": "« Mon rap n’est pas un braquage mais je vois quand même des mains en l’air. »",
     "tags": [
-      "Concert"
+      "Argent",
+      "Prison"
     ],
     "author": "Flynt",
     "album": "Itinéraire bis",
@@ -3088,7 +3083,8 @@
   {
     "content": "« J’ai des pics sur le cœur comme sur une paire de Louboutin. »",
     "tags": [
-      "Mode"
+      "Amour",
+      "Argent"
     ],
     "author": "Booba",
     "album": "Divers",
@@ -3156,7 +3152,7 @@
   {
     "content": "« Conscient que la violence, peut être la dernière chance d’obtenir la paix. »",
     "tags": [
-      "Guerre",
+      "Violence",
       "Violence"
     ],
     "author": "Kery James",
@@ -3166,8 +3162,8 @@
   {
     "content": "« À l’heure dans le building, chez nous pas de Breitling c’est la dalle qui donne l’heure. »",
     "tags": [
-      "Banlieue",
-      "Bling-bling"
+      "Rue",
+      "Argent"
     ],
     "author": "Kaaris",
     "album": "Or Noir",
@@ -3193,7 +3189,7 @@
   {
     "content": "« Ils deviennent ce qu’ils voient. Ils voient ce qu’ils deviennent, cette spirale de l’échec me peine. »",
     "tags": [
-      "Banlieue"
+      "Rue"
     ],
     "author": "Akhénaton",
     "album": "Métèque et mat",
@@ -3423,7 +3419,7 @@
   {
     "content": "« La banlieue a un charme, qu’a jamais séduit la juge. »",
     "tags": [
-      "Banlieue",
+      "Rue",
       "Jeu de mots",
       "Justice"
     ],
@@ -3750,7 +3746,7 @@
   {
     "content": "« À trop haïr les noirs, Le Pen fait des nuits blanches. »",
     "tags": [
-      "FN"
+      "Politique"
     ],
     "author": "La Fouine",
     "album": "Drôle de parcours",
@@ -4787,7 +4783,7 @@
   {
     "content": "« Les meilleurs partent pas les premiers, regarde j’suis encore là ! »",
     "tags": [
-      "Feat"
+      "Proverbe"
     ],
     "author": "Sultan",
     "album": "Des jours meilleurs",
@@ -4796,7 +4792,7 @@
   {
     "content": "« La vie n’est qu’un film où la mort est le générique. »",
     "tags": [
-      "Inédits"
+      "Cinéma"
     ],
     "author": "La Fouine",
     "album": "Inédits",
@@ -4881,7 +4877,7 @@
   {
     "content": "« Quand le bitume parlera vraiment, tu écouteras nos CD par le cul. »",
     "tags": [
-      "Live Radio"
+      "Clash"
     ],
     "author": "Rockin'Squat",
     "album": "Illegal Mixtapes 3",
@@ -4985,7 +4981,7 @@
   {
     "content": "« Le Monde sera à toi quand t’auras coupé ma tête. »",
     "tags": [
-      "Feat"
+      "Ego Trip"
     ],
     "author": "Sultan",
     "album": "Des jours meilleurs",
@@ -5103,8 +5099,7 @@
   {
     "content": "« J’suis déjà trop loin et c’est pour ça que j’ai très peu d’amis proches. »",
     "tags": [
-      "Amitié",
-      "Feat"
+      "Amitié"
     ],
     "author": "Sultan",
     "album": "Des jours meilleurs",
@@ -5134,7 +5129,7 @@
   {
     "content": "« T’es pas d’ma pointure, viens pas nager t’as pas pied. »",
     "tags": [
-      "Feat"
+      "Ego Trip"
     ],
     "author": "Sultan",
     "album": "Des jours meilleurs",
@@ -5180,7 +5175,7 @@
   {
     "content": "« Crapeau deviendra prince, nique sa mère mon nénuphar. »",
     "tags": [
-      "Feat"
+      "Mère"
     ],
     "author": "Booba",
     "album": "Lunatic",
@@ -5426,7 +5421,7 @@
   {
     "content": "« En Irak, les invalides c’est pas une station de métro. »",
     "tags": [
-      "Guerre"
+      "Violence"
     ],
     "author": "Mokless",
     "album": "Le poids des mots",
@@ -5529,7 +5524,7 @@
   {
     "content": "« Si Jean-Marie courrait aussi vite que je l’emmerde, il serait tellement loin. »",
     "tags": [
-      "FN",
+      "Politique",
       "Old School"
     ],
     "author": "Fabe",
@@ -5656,7 +5651,7 @@
   {
     "content": "« À force d’être en chien j’vais finir chez le véto. »",
     "tags": [
-      "Feat"
+      "Sexe"
     ],
     "author": "Sultan",
     "album": "Des jours meilleurs",
@@ -6016,7 +6011,7 @@
   {
     "content": "« Balance les phases qui cicatrisent leurs coupures de presse. »",
     "tags": [
-      "Presse"
+      "Actualités"
     ],
     "author": "Kery James",
     "album": "Réel",
@@ -6103,7 +6098,7 @@
     "content": "« Mon sperme en guise de gel pour ta crète, connard ! »",
     "tags": [
       "Explicit Lyrics",
-      "Feat",
+      "Sexe",
       "Rap Game"
     ],
     "author": "Sultan",
@@ -6221,7 +6216,7 @@
   {
     "content": "« Aucune balle ne peut tuer l’honneur d’un homme. Aucun de vos chars ne peut détruire les royaumes. »",
     "tags": [
-      "Guerre"
+      "Violence"
     ],
     "author": "Médine",
     "album": "Table d'écoute",
@@ -6950,8 +6945,7 @@
   {
     "content": "« J’me suis vu haïr l’amour, aimer la haine. »",
     "tags": [
-      "Amour",
-      "Haine"
+      "Amour"
     ],
     "author": "Despo Rutti",
     "album": "Les Funérailles des Tabous",
@@ -8891,7 +8885,7 @@
   {
     "content": "« Je vais pas avec ma go en boîte, y’a trop d’antécédent. Si un mec vient l’inviter ser-dan, j’vais lui ôter ses dents. »",
     "tags": [
-      "Bagarre",
+      "Violence",
       "Nuit"
     ],
     "author": "Seth Gueko",

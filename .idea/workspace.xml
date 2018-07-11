@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69028997-9d5d-4909-ac48-16afa18b8021" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/json/commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/punchlines.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/punchlines.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,13 +15,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="commands.json" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/json/commands.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="340">
+                    <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+            <state relative-caret-position="133">
+              <caret line="50" column="103" selection-start-line="50" selection-start-column="103" selection-end-line="50" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -25,8 +48,8 @@
       <file leaf-file-name="punchlines.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/punchlines.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="8" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="-2128">
+              <caret line="5101" column="14" selection-start-line="5101" selection-start-column="14" selection-end-line="5101" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -40,12 +63,41 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Live</find>
+      <find>Paris</find>
+      <find>Concert</find>
+      <find>Mode</find>
+      <find>&quot;Live&quot;</find>
+      <find>&quot;Live</find>
+      <find>&quot;Paris&quot;</find>
+      <find>&quot;Bagarre&quot;</find>
+      <find>&quot;Bling-bling&quot;</find>
+      <find>&quot;Inédits&quot;</find>
+      <find>&quot;Guerre&quot;</find>
+      <find>&quot;Haine&quot;</find>
+      <find>&quot;FN&quot;</find>
+      <find>&quot;Compliment&quot;</find>
+      <find>&quot;Citation&quot;</find>
+      <find>&quot;Divers&quot;</find>
+      <find>&quot;Feat&quot;</find>
+      <find>\\n</find>
+      <find>&quot;Presse&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\n</replace>
+      <replace>&quot;Proverbe&quot;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/json/punchlines.json" />
+        <option value="$PROJECT_DIR$/json/commands.json" />
         <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
@@ -66,8 +118,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="y" value="40" />
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -189,12 +241,12 @@
       <workItem from="1529253764938" duration="1211000" />
       <workItem from="1530037019559" duration="1330000" />
       <workItem from="1531328633749" duration="147000" />
-      <workItem from="1531328819986" duration="5361000" />
+      <workItem from="1531328819986" duration="14307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36287000" />
+    <option name="totallyTimeSpent" value="45233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -335,15 +387,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/punchlines.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        <state relative-caret-position="-2128">
+          <caret line="5101" column="14" selection-start-line="5101" selection-start-column="14" selection-end-line="5101" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/commands.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        <state relative-caret-position="133">
+          <caret line="50" column="103" selection-start-line="50" selection-start-column="103" selection-end-line="50" selection-end-column="103" />
         </state>
       </provider>
     </entry>

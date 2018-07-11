@@ -1,0 +1,26 @@
+{
+  "Vald - Dragon" : {
+    "name":"Vald - Dragon\n",
+    "group":"Rap",
+    "desc":"Répond à l'appel du rap",
+    "usage": "roule un dragon | fume un dragon | charge un dragon | viens dans l'hall | vas-y charge le"
+  },
+  "Private jokes": {
+    "name":"Private jokes\n",
+    "group":"Fun/Relou",
+    "desc":"Des private jokes sur l'élite des potos",
+    "usage": "lucas | lulu \nkaktus\ncoco\nocé\nnejma\nclaire\njulien\nathem\nvirgile | vivi\ngeo | géo"
+  },
+  "Rap contenders": {
+    "name":"Rap contenders\n",
+    "group":"Rap Contenders",
+    "desc":"Distributeur de punchlines (aléatoirement ou filtrable par catégories)",
+    "usage":"dv punch | dv punch [category]"
+  },
+  "Catégories": {
+    "name":"Catégories\n",
+    "group":"Rap Contenders",
+    "desc":"Donne la liste des catégories de punchline",
+    "usage":"dv cat"
+  }
+}
