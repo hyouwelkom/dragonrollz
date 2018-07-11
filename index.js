@@ -1,17 +1,21 @@
 const Discord = require('discord.js');
+const fs = require('fs');
 const bot = new Discord.Client();
+let punch = JSON.parse(fs.readFileSync('json/punchlines.json', 'utf8'));
+var LastPunch = {};
 
 bot.on('ready', () => {
     bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
 bot.user.setPresence({
     game: {
-        name: 'Rouler des dinosaures',
+        name: "J'gratte j'gratte",
         type: 0
     }
 });
 });
 
 bot.on('message', function (msg) {
+    var arr = msg.content.split(" ");
 
     if(!msg.author.bot) {
         switch (msg.content.toLowerCase()) {
@@ -40,6 +44,24 @@ bot.on('message', function (msg) {
             msg.delete()
             str = str.replace('david type ', '')
             msg.channel.send(str)
+        }
+        if(msg.content.toLowerCase() === "david punch " || msg.content.toLowerCase() === "david punch") {
+            var i = Math.floor(Math.random() * (punch.length-1))
+            msg.channel.send(punch[i].content)
+            LastPunch.lastId = i
+        }
+        if(msg.content.startsWith("david punch ") &&arr.length>2 && arr[2] !== undefined) {
+            str = msg.content.replace('david punch ', '')
+            if(str.charAt(str.length-1) == " ") { str.slice(-1); }
+            var i = Math.floor(Math.random() * (punch.length-1))
+            while(!(punch[i].tags.includes(str))) {
+                i = Math.floor(Math.random() * (punch.length-1))
+            }
+            msg.channel.send(punch[i].content)
+            LastPunch.lastId = i
+        }
+        if(msg.content.toLowerCase().includes("david auteur ") || msg.content.toLowerCase() === "david auteur") {
+            msg.channel.send("La punch est de "+punch[LastPunch.lastId].author+" du titre "+punch[LastPunch.lastId].title+", album "+punch[LastPunch.lastId].album)
         }
         if(msg.content.toLowerCase().includes("kaktus ") || msg.content.toLowerCase() === "kaktus") {
             msg.channel.send("Lpb des rappeuses")
@@ -139,4 +161,4 @@ bot.on('message', function (msg) {
 })
 
 
-bot.login('MzM0MDkzMDMxNzAxNjEwNTA2.Dd5u3Q.YwSESfsiZ-9RTStB9bsC9SRxPOk')
+bot.login('MzM0MDkzMDMxNzAxNjEwNTA2.DifLJQ.jGTvGhIBgI-nhb-SwoqjCihszak')
