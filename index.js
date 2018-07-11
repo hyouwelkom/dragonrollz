@@ -58,10 +58,14 @@ bot.on('message', function (msg) {
             while(!(punch[i].tags.includes(str))) {
                 j++
                 i = Math.floor(Math.random() * (punch.length-1))
-                if(j === 20) { msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée") }
-                break
+                if(j === 20) {
+                    msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée")
+                    break
+                }
             }
-            if(!(j===20)) { msg.channel.send(punch[i].content) }
+            if(!(j===20)) {
+                msg.channel.send(punch[i].content)
+            }
             LastPunch.lastId = i
         }
         if(msg.content.toLowerCase().includes("david auteur ") || msg.content.toLowerCase() === "david auteur") {
