@@ -72,8 +72,9 @@ bot.on('message', function (msg) {
                 }
             }
             i = Math.floor(Math.random() * (tab.length-1))
-            msg.channel.send(tab[i].content)
-            LastPunch.lastId = i
+            if(tab.length>0) {
+                msg.channel.send(tab[i].content)
+                LastPunch.lastId = i
             } else {
                 msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée")
             }
