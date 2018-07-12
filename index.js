@@ -83,7 +83,7 @@ bot.on('message', function (msg) {
                 msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée")
             }
         }
-        if (msg.content.toLowerCase().includes("david auteur ") || msg.content.toLowerCase() === "david auteur") {
+        if (msg.content.toLowerCase().includes("dv auteur ") || msg.content.toLowerCase() === "dv auteur") {
             msg.channel.send("La punch est de " + punch[LastPunch.lastId].author + " du titre " + punch[LastPunch.lastId].title + ", album " + punch[LastPunch.lastId].album)
         }
         if (msg.content.toLowerCase().includes("kaktus ") || msg.content.toLowerCase() === "kaktus") {
