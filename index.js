@@ -67,18 +67,21 @@ bot.on('message', function (msg) {
             }
             var tab = []
             var t = punch.length
+            var x = 0
             for (i = 0; i < t; i++) {
                 var size = punch[i].tags.length
                 for (var y = 0; y < size; y++) {
                     if (punch[i].tags[y] == str) {
                         tab.push(punch[i])
+                        tab[x].id = i
+                        x++
                     }
                 }
             }
             i = Math.floor(Math.random() * (tab.length - 1))
             if (tab.length > 0) {
                 msg.channel.send(tab[i].content)
-                LastPunch.lastId = i
+                LastPunch.lastId = tab[i].id
             } else {
                 msg.channel.send("Sorry fréro ta catégorie a pas été trouvée, mdr msk comment elle doit être rincée")
             }
