@@ -15,7 +15,7 @@
     "name":"Rap contenders\n",
     "group":"Rap Contenders",
     "desc":"Distributeur de punchlines (aléatoirement ou filtrable par catégories)",
-    "usage":"dv punch | dv punch [category]"
+    "usage":"dv punch | dv punch [category]\ndv auteur"
   },
   "Catégories": {
     "name":"Catégories\n",
