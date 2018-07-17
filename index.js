@@ -18,6 +18,10 @@ bot.user.setPresence({
 bot.on('message', function (msg) {
     var arr = msg.content.split(" ");
 
+    if((msg.content == "cool cool cool") && (msg.author.id = '85614143951892480')) {
+        msg.channel.send("cool cool cool cool cool")
+    }
+
     if(!msg.author.bot) {
         switch (msg.content.toLowerCase()) {
             case 'roule un dragon':
