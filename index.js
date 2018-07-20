@@ -118,7 +118,7 @@ bot.on('message', function (msg) {
             msg.channel.send("C'est le H devant fils de pute")
         }
         if (msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo") || msg.content.toLowerCase() === "geo" || msg.content.toLowerCase() === "géo") {
-            var i = Math.floor(Math.random() * 12)
+            var i = Math.floor(Math.random() * 21)
             switch (i) {
                 case 0:
                     msg.channel.send("graphie")
