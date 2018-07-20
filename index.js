@@ -164,6 +164,37 @@ bot.on('message', function (msg) {
                         ]
                     })
                     break
+                case 12:
+                  msg.channel.send("Géomis de mettre des blagues marrantes sur ce bot")
+                  break
+                case 13:
+                  msg.channel.send("rges Bush")
+                  break
+                case 14:
+                  msg.channel.send("rges Washington")
+                  break
+                case 15:
+                  msg.channel.send("ffrey de Secret Story 5", {
+                    files: [
+                      "./assets/img/geoffrey.jpg"
+                    ]
+                  })
+                  break
+                case 16:
+                  msg.channel.send("Géorganisé une partouze familiale et alors ?")
+                  break
+                case 17:
+                  msg.channel.send("Géoccasionné la fin du monde à cause de mon humour")
+                  break
+                case 18:
+                  msg.channel.send("Géobligé Virgile à pas être trop méchant sous peine de rétrogradage")
+                  break
+                case 19:
+                  msg.channel.send("Géofficialisé ma relation avec Lucas")
+                  break
+                case 20:
+                  msg.channel.send("Géopté pour CAP kebabier après le bac")
+                  break
 
             }
         }
