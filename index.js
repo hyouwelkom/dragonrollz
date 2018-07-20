@@ -119,6 +119,7 @@ bot.on('message', function (msg) {
         }
         if (msg.content.toLowerCase().includes("geo") || msg.content.toLowerCase().includes("géo") || msg.content.toLowerCase() === "geo" || msg.content.toLowerCase() === "géo") {
             var i = Math.floor(Math.random() * 21)
+            console.log(i)
             switch (i) {
                 case 0:
                     msg.channel.send("graphie")
