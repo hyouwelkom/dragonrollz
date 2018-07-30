@@ -69,6 +69,7 @@ bot.on('message', function (msg) {
             if (str.charAt(str.length - 1) == " ") {
                 str = str.slice(0, -1);
             }
+            str = str.charAt(0).toUpperCase() + str.slice(1)
             var tab = []
             var t = punch.length
             var x = 0
