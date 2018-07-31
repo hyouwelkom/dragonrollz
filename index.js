@@ -5,15 +5,18 @@ const commands = JSON.parse(fs.readFileSync('json/commands.json', 'utf8'));
 let punch = JSON.parse(fs.readFileSync('json/punchlines.json', 'utf8'));
 var LastPunch = {};
 
-bot.on('ready', () => {
-    bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+
+bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
 bot.user.setPresence({
-    game: {
-        name: "J'gratte j'gratte",
-        type: 0
-    }
+game: {
+    name: "J'gratte j'gratte",
+    type: 0
+}
 });
-});
+
+bot.on('ready', () => {
+
+
 
 bot.on('message', function (msg) {
     var arr = msg.content.split(" ");
