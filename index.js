@@ -7,14 +7,8 @@ var LastPunch = {};
 
 
 
-
-
-bot.on('ready', () => {
-  bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
-  bot.user.setActivity("Maintenance")
-});
-
-
+bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+bot.user.setActivity("Maintenance")
 
 bot.on('message', function (msg) {
     var arr = msg.content.split(" ");
