@@ -7,12 +7,7 @@ var LastPunch = {};
 
 
 bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
-bot.user.setPresence({
-game: {
-    name: "J'gratte j'gratte",
-    type: 0
-}
-});
+
 
 bot.on('ready', () => {
 
