@@ -6,11 +6,12 @@ let punch = JSON.parse(fs.readFileSync('json/punchlines.json', 'utf8'));
 var LastPunch = {};
 
 
-bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+
 
 
 bot.on('ready', () => {
-
+  bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+  bot.user.setActivity("Maintenance")
 });
 
 
