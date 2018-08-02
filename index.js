@@ -216,4 +216,4 @@ bot.on('message', function (msg) {
     }
 })
 
-bot.login('MzM0MDkzMDMxNzAxNjEwNTA2.DkIC3Q.isIlwdJXbidHipaOJsi_YK9ZEVE')
+bot.login('¯\_(ツ)_/¯ YOUR OWN TOKEN ¯\_(ツ)_/¯')
