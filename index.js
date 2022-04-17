@@ -18,20 +18,6 @@ bot.on('message', function (msg) {
     }
 
     if(!msg.author.bot) {
-        switch (msg.content.toLowerCase()) {
-            case 'roule un dragon':
-                msg.channel.send("FUME UN DRAGON")
-                break
-            case 'fume un dragon':
-                msg.channel.send("CHARGE UN DRAGON")
-                break
-            case 'charge un dragon':
-                msg.channel.send("VISE LES TES-TÊÊÊÊ")
-                break
-            case "viens dans l'hall":
-                msg.channel.send("J'AI DES DRAGON BALLS")
-                break
-        }
 
         if (msg.content.toLowerCase().includes("lucas ") || msg.content.toLowerCase().includes("lulu ") || msg.content.toLowerCase() === "lucas" || msg.content.toLowerCase() === "lulu") {
             msg.channel.send("Dieu")
@@ -176,9 +162,6 @@ bot.on('message', function (msg) {
                     ]
                   })
                   break
-                case 16:
-                  msg.channel.send("Géorganisé une partouze familiale et alors ?")
-                  break
                 case 17:
                   msg.channel.send("Géoccasionné la fin du monde à cause de mon humour")
                   break
@@ -193,24 +176,6 @@ bot.on('message', function (msg) {
                   break
 
             }
-        }
-
-
-        if (msg.content.toLowerCase() === "vas-y charge le") {
-            msg.channel.send("Rien qu'ça téfri...").then(function (msg) {
-                var interval = setTimeout(function () {
-                    msg.edit("Rien qu'ça téfri.....")
-                }, 1 * 1000)
-                var interval = setTimeout(function () {
-                    msg.edit("Rien qu'ça téfri..........")
-                }, 1 * 1000)
-                var interval = setTimeout(function () {
-                    msg.edit("Rien qu'ça téfri toujours..............")
-                }, 1 * 1000)
-                var interval = setTimeout(function () {
-                    msg.edit("```(____((____________()~~~```")
-                }, 1 * 1000)
-            })
         }
 
     }
